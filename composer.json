@@ -1,0 +1,20 @@
+{
+  "name": "webjeyros/sms-activation-api",
+  "description": "PHP Library for working with SMS activation services",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "webjeyros",
+      "email": "webjeyros@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "^6.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SmsActivator\\": "src/"
+    }
+  }
+}
