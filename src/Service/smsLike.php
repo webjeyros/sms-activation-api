@@ -94,12 +94,12 @@ class smsLike implements SmsServiceInterface
 
     public function setCancel($id)
     {
-      throw new \Exception('Not implement');
+        return true;
     }
 
     public function setComplete($id)
     {
-        throw new \Exception('Not implement');
+        return true;
     }
 
     public function getList()

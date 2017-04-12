@@ -26,7 +26,6 @@ class smsActivate implements SmsServiceInterface
     /**
      * smsActivate constructor.
      * @param $apiKey
-     * @param ClientInterface $client
      */
     public function __construct($apiKey)
     {
